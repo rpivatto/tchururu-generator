@@ -1,0 +1,26 @@
+{
+  "name": "tchururu-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node_modules/.bin/jest --config jest.conf.js --detectOpenHandles spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpivatto/tchururu-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpivatto/tchururu-generator/issues"
+  },
+  "homepage": "https://github.com/rpivatto/tchururu-generator#readme",
+  "devDependencies": {
+    "jest": "^24.5.0"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
